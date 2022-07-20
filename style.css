@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#hero{
+  max-width: 592px;
+  margin: 0 auto 72px;
+} 
+#hero img{
+  margin-bottom: 72px;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+  margin-bottom: 32px;
+}
+h1 span{
+  font-weight: bold;
+}
+span, a{
+  color: #FF9900;
+}
+p{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+a{
+  font-size: 14px;
+}
+footer{
+  margin-top: 100px;
+}
+/* Pegue o a que anterior a ele tenha uma a */
+footer a + a{
+  margin-left: 28px;
+}
+footer .line{
+  width: 568px;
+  height: 0;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+#balls{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
